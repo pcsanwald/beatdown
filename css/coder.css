@@ -1,0 +1,56 @@
+body {
+	font-size: 14px;
+}
+
+textarea {
+	width: 600px;
+	height: 200px;
+}
+
+#result {
+	border: 1px solid green;
+	width: 600px;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+#result.error {
+	border: 1px solid red;
+}
+
+.disabled {
+	color: gray;
+}
+
+#spaces {
+	padding-left: 20px;
+}
+
+#d_clip_button {
+	width: 150px;
+	text-align: center;
+	border: 1px solid black;
+	background-color: #ccc;
+	border-radius: 15px;
+	color: black;
+}
+
+#d_clip_button.hover {
+	background-color: #eee;
+}
+
+#d_clip_button.active {
+	background-color: #aaa;
+}
+
+#areaAction, #areaOut, #areaIn, #extra {
+	margin-top: 15px;
+}
+
+#extra {
+	font-size: 12px;
+}
+
+.lbl {
+	font-weight: bold;
+}
