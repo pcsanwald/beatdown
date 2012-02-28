@@ -245,12 +245,13 @@ footer {
 h2 {
     margin-top: 2%;
     margin-bottom: 2%;
-}
-a:link, a:visited {
     color: #ED9121;
 }
+a:link, a:visited {
+    color: #A8A8A8;
+}
 a:hover {
-    color: #D2691E;
+    color: #ED9121;
 }
 a {
     outline: none;
